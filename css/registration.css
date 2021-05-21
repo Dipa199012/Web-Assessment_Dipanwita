@@ -5,7 +5,7 @@ body{
 h1{
     text-align: center;
     font-size: 2rem;
-    color: p;
+    color: paleturquoise;
 }
 .outerContainer{
     border: 2px solid red;
@@ -27,4 +27,12 @@ label{
     border: 1px solid lightgrey;
     border-radius: 5px;
     padding: 5px;
+}
+/* .addr{
+    width: 50%;
+} */
+.addressContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

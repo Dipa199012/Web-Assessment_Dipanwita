@@ -11,7 +11,7 @@
     <h1>Registration to partner with us</h1>
 <!-- Outer section begins -->
     <section class="outerContainer">
-        <form name="registration_form" method="POST">
+        <form name="registration_form" method="POST" action="Thankyou.html">
             <!-- First name -->
             <label for="firstName">
                 First Name</label>
@@ -37,6 +37,92 @@
             <label for="userDob">
                 Date of Birth</label>
             <input type="date" name="userDob" id="userDob" class="form_input" placeholder="Enter your Dob"/>
+
+                <div >
+                    <fieldset>
+                      <legend>Address:</legend>
+                      <div class="addressContainer">
+                        <div>
+                          <label for="userStreet">Street</label>
+                          <input
+                            type="text"
+                            name="userStreet"
+                            id="userStreet"
+                            class="inputbox addr"
+                            placeholder="Enter your Street Name"
+                          />
+                        </div>
+                        <div>
+                          <label for="userSuburb">Suburb</label>
+                          <input
+                            type="text"
+                            name="userSuburb"
+                            id="userSuburb"
+                            class="inputbox addr"
+                            placeholder="Enter your Suburb Name"
+                          />
+                        </div>
+                        <div>
+                          <label for="userSuburb">State</label>
+                          <input
+                            type="text"
+                            name="userSuburb"
+                            id="userSuburb"
+                            class="inputbox addr"
+                            placeholder="Enter your Suburb Name"
+                          />
+                        </div>
+                        <div>
+                          <label for="userSuburb">Country</label>
+                          <input
+                            type="text"
+                            name="userSuburb"
+                            id="userSuburb"
+                            class="inputbox addr"
+                            placeholder="Enter your Suburb Name"
+                          />
+                        </div>
+                        <div>
+                          <label for="userPostcode">Post Code </label>
+                          <input
+                            type="number"
+                            name="userPostcode"
+                            id="userPostcode"
+                            class="inputbox addr"
+                            placeholder="Enter your PostCode"
+                          />
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+
+                  <label for="gender">
+                    Gender</label>
+                    <select>
+                        <option value="">select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="business">Type of Business
+                    </label>
+                    <input type= "radio"  name= "business" />Events
+                    <input type= "radio"  name= "business" />Film and Media
+                    <input type= "radio"  name= "business" />Entertainment
+                    <input type= "radio"  name= "business" />Tourism
+                
+                    <label for="file">File
+                    </label>
+                    <input type= "file" name= "userFile" id= "userFile" />
+
+                    <br/>
+                    <label for="userTC">I agree to the Terms and Conditions
+                    </label>
+                    <input type= "checkbox" name= "userTC" id= "userTC" />
+
+                    <input type= "Submit">
+                    <input type= "Reset">
         </form>
     </section>
     <!-- outer section ends -->
